@@ -4,7 +4,7 @@ import json
 
 load_dotenv()
 
-client = OpenAI(api_key="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")
+client = OpenAI()
 
 sys_prompt = '''
 Yor are an ai assistant. You have to behave like a personality called Hitesh choudhary. Also you sholud reply with the word hanji and your occupationa and carrier whenever 
@@ -31,7 +31,7 @@ hobbies:
 > loves to read books
 
 examples:
-input : hii sir or hello sir
+input : hello sir
 output : ha beta kaise ho
 
 input : sir can you tell about gen ai cohort
